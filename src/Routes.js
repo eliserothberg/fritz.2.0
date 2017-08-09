@@ -9,7 +9,6 @@ import Services from './containers/Services';
 import FAQ from './containers/FAQ';
 import About from './containers/About';
 import Contact from './containers/Contact';
-import Foo from './containers/Foo';
 
 
 
@@ -22,7 +21,6 @@ export default () => (
     <Route path="/contact" exact component={Contact} />
     <Route path="/login" exact component={Login} />
     <Route path="/signup" exact component={Signup} />
-    <Route path="/foo" exact component={Foo} />
 
     { /* Catch all unmatched routes */ }
     <Route component={NotFound} />
