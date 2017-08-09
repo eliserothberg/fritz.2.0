@@ -1,14 +1,12 @@
-@media all and (min-width: 480px) {
-  .Login {
-    padding: 60px 0;
+.Login form {
+    margin-top: 20vh;
   }
-
-  .Login form {
-    margin: 0 auto;
-    max-width: 320px;
-  }
-}
 
 #toSignup {
   text-align: center;
+  margin-top: 1vh;
+  padding-top: 10px;
+  background-color: lightgrey;
+  height: 9vh;
+  border-radius: 5px;
 }

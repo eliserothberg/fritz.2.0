@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import { Button, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
+import { Button, FormGroup, FormControl, ControlLabel, Row, Col } from 'react-bootstrap';
 import './Signup.css';
 
 class Signup extends Component {
@@ -52,40 +52,42 @@ class Signup extends Component {
 
   renderForm() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <FormGroup controlId="username" bsSize="large">
-          <ControlLabel>Email</ControlLabel>
-          <FormControl
-            autoFocus
-            type="email"
-            value={this.state.username}
-            onChange={this.handleChange} />
-        </FormGroup>
-        <FormGroup controlId="password" bsSize="large">
-          <ControlLabel>Password</ControlLabel>
-          <FormControl
-            value={this.state.password}
-            onChange={this.handleChange}
-            type="password" />
-        </FormGroup>
-        <FormGroup controlId="confirmPassword" bsSize="large">
-          <ControlLabel>Confirm Password</ControlLabel>
-          <FormControl
-            value={this.state.confirmPassword}
-            onChange={this.handleChange}
-            type="password" />
-        </FormGroup>
-        Sign Up
-        <Button
-          block
-          bsSize="large"
-          disabled={ ! this.validateForm() }
-          type="submit"
-          // isLoading={this.state.isLoading}
-          // text="Signup"
-          // loadingText="Signing up…"
-           />
-      </form>
+      <Row>
+        <Col sm={4} smOffset={4}>
+          <form onSubmit={this.handleSubmit}>
+            <FormGroup controlId="username" bsSize="large">
+              <ControlLabel>Email</ControlLabel>
+              <FormControl
+                autoFocus
+                type="email"
+                value={this.state.username}
+                onChange={this.handleChange} />
+            </FormGroup>
+            <FormGroup controlId="password" bsSize="large">
+              <ControlLabel>Password</ControlLabel>
+              <FormControl
+                value={this.state.password}
+                onChange={this.handleChange}
+                type="password" />
+            </FormGroup>
+            <FormGroup controlId="confirmPassword" bsSize="large">
+              <ControlLabel>Confirm Password</ControlLabel>
+              <FormControl
+                value={this.state.confirmPassword}
+                onChange={this.handleChange}
+                type="password" />
+            </FormGroup>
+            <Button
+                block
+                bsSize="large"
+                bsStyle="primary"
+                disabled={ ! this.validateForm() }
+                type="submit">
+                Sign Up
+              </Button>
+          </form>
+        </Col>
+      </Row>
     );
   }
 
