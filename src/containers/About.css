@@ -1,0 +1,18 @@
+.thePic {
+  background-image: url(.././img/andyFritz.png);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#aboutAF {
+  margin: 3vw 15vw;
+  text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 20vh;
+}
+
