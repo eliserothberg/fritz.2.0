@@ -14,7 +14,7 @@ class Home extends Component {
         </div>
       </div>
        
-      <video className='videoTag' autoPlay loop muted plays-inline>
+      <video className='videoTag' autoPlay loop muted>
         <source src={countryside} type='video/mp4' />
       </video>
       </div>

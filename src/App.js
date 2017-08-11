@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import Routes from './Routes';
-import RouteNavItem from './components/RouteNavItem';
+// import RouteNavItem from './components/RouteNavItem';
 import './App.css';
 
 

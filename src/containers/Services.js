@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Image, Media } from 'react-bootstrap';
+import { Col, Media } from 'react-bootstrap';
 import './Services.css';
 // import '.././img/landUseMap.jpg';
 import landUseMap from '../img/landUseMap.jpg';
+import treesAbove from '../img/treesAbove.jpeg';
+import elsCity from '../img/elsCity.jpeg';
+import elsCloudyLand from '../img/elsCloudyLand.jpeg';
+import elsVillage from '../img/elsVillage.jpeg';
+import waterLand from '../img/waterLand.jpeg';
+import stake from '../img/stake.jpg';
+
 
 class Services extends Component {
   render() {
@@ -13,8 +20,8 @@ class Services extends Component {
             <h1>Our Services</h1>
 
             <Media>
-              <Media.Left align="middle">
-                <img width={110} height={110} src={landUseMap} alt="land use map"/>
+              <Media.Left align="bottom">
+                <img width={350} height={250} src={elsCloudyLand} alt="land use map"/>
               </Media.Left>
               <Media.Body>
                 <Media.Heading>Preliminary Survey</Media.Heading>
@@ -25,19 +32,19 @@ class Services extends Component {
             
             <Media>
               <Media.Body>
-                <Media.Heading>Boundary and Stake Survey</Media.Heading>
+                <Media.Heading className="toRight">Boundary and Stake Survey</Media.Heading>
                 <p>A survey performed to establish or re-establish a boundary line on the ground 
                       or to obtain data for constructing a map or plat showing a boundary line.</p>
               </Media.Body>
 
               <Media.Right align="middle">
-                <img width={110} height={110} src={landUseMap} alt="Image"/>
+                <img width={350} height={250} src={stake} alt="land use map"/>
               </Media.Right>
             </Media>
             
             <Media>
               <Media.Left align="middle">
-                <img width={110} height={110} src={landUseMap} alt="land use map"/>
+                <img width={350} height={250} src={elsVillage} alt="land use map"/>
               </Media.Left>
               
               <Media.Body>
@@ -49,20 +56,20 @@ class Services extends Component {
             
             <Media>
               <Media.Body>
-                <Media.Heading>Topographic Survey</Media.Heading>
+                <Media.Heading className="toRight">Topographic Survey</Media.Heading>
                 <p>A survey of an area which has for its major purposes and determination of the 
                             configuration of the surface of the ground (using elevation contours) and the location 
                             of the natural and artificial objects.</p>
               </Media.Body>
               
               <Media.Right align="middle">
-                <img width={110} height={110} src={landUseMap} alt="Image"/>
+                <img width={350} height={250} src={treesAbove} alt="land use map"/>
               </Media.Right>
             </Media>
             
             <Media>
             <Media.Left align="middle">
-                <img width={110} height={110} src={landUseMap} alt="land use map"/>
+                <img width={350} height={250} src={landUseMap} alt="land use map"/>
               </Media.Left>
 
               <Media.Body>
@@ -75,21 +82,21 @@ class Services extends Component {
             
             <Media>
               <Media.Body>
-                <Media.Heading>Mortgage Inspection Report</Media.Heading>
+                <Media.Heading className="toRight">Mortgage Inspection Report</Media.Heading>
                 <p>A report made for the sole use of a lending institution to evaluate title problems 
                 relating to possession. The Mortgage Inspection Report shows the relationship of the 
                 improvements to the approximate property lines and filed easements or rights of way. 
                 Survey makers are not usually set with this type of survey.</p>
               </Media.Body>
               <Media.Right align="middle">
-                <img width={110} height={110} src={landUseMap} alt="Image"/>
+                <img width={350} height={250} src={elsCity} alt="land use map"/>
               </Media.Right>
             </Media>
             
             <Media>
             <Media.Left align="middle">
-                <img width={110} height={110} src={landUseMap} alt="land use map"/>
-              </Media.Left>
+              <img width={350} height={250} src={treesAbove} alt="land use map"/>
+            </Media.Left>
 
               <Media.Body>
                 <Media.Heading>American Land and Title Association (ALTA) Title Survey</Media.Heading>
@@ -101,19 +108,19 @@ class Services extends Component {
             
             <Media>
               <Media.Body>
-                <Media.Heading>Elevation Survey</Media.Heading>
+                <Media.Heading className="toRight">Elevation Survey</Media.Heading>
                 <p>A survey of a property, building or residence and its relation to a flood plain. 
                 Elevation surveys are used by lending agencies and insurance companies to determine 
                 the need for flood insurance or if a site is suitable for a new structure.</p>
               </Media.Body>
               <Media.Right align="middle">
-                <img width={110} height={110} src={landUseMap} alt="Image"/>
+                <img width={350} height={250} src={landUseMap} alt="land use map"/>
               </Media.Right>
             </Media>
             
             <Media>
             <Media.Left align="middle">
-                <img width={110} height={110} src={landUseMap} alt="land use map"/>
+                <img width={350} height={250} src={landUseMap} alt="land use map"/>
               </Media.Left>
               <Media.Body>
                 <Media.Heading>Subdivision Survey</Media.Heading>
