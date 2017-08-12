@@ -1,54 +1,25 @@
-/*body {
-  background-image: url(.././img/greyBG.jpg);
-
-}*/
-
-.col-md-4 {
-  position: relative;
-  max-width: 400px;
-  margin: 50px auto 0;
-  text-align: center;
-}
-.col-md-4>h4 {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.col-md-4>p {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  text-decoration: underline;
-  margin-bottom: 5px;
-  text-align: center;
-}
-
 h1 {
   text-align: center;
   text-decoration: underline;
-  margin-top: 30px;
+  padding: 10vh 0;
 }
-
-/*#skew:before {
-content: '';
-  position: absolute;
-  left: 50%;
-  width: 120vw;
-  height: 230%;
-  transform: translate(-50%, -50%) rotate(-10deg);
-  background-color: lightgray;
-  z-index: -1;
-}
-.theMap {
-  max-width: 30vw;
-}*/
-
 .skew {
   margin: 0 20vw;
 }
 
-.toRight {
-  text-align: right;
+h4 {
+  text-align: center;
 }
-
 .media-heading {
   font-size: 20px;
   text-decoration: underline;
+}
+.media-left {
+  margin-right: 10vh;
+}
+.media-body {
+  padding: 2vw;
+}
+img {
+  padding-top: 1vh;
 }

@@ -4,12 +4,15 @@ import './Services.css';
 // import '.././img/landUseMap.jpg';
 import landUseMap from '../img/landUseMap.jpg';
 import treesAbove from '../img/treesAbove.jpeg';
-import elsCity from '../img/elsCity.jpeg';
-import elsCloudyLand from '../img/elsCloudyLand.jpeg';
+// import elsCity from '../img/elsCity.jpeg';
+// import elsCloudyLand from '../img/elsCloudyLand.jpeg';
 import elsVillage from '../img/elsVillage.jpeg';
-import waterLand from '../img/waterLand.jpeg';
+// import waterLand from '../img/waterLand.jpeg';
 import stake from '../img/stake.jpg';
-
+import plat from '../img/plat.jpg';
+import construction from '../img/construction.jpg';
+import tree from '../img/tree.jpg';
+import elevation from '../img/elevation.png';
 
 class Services extends Component {
   render() {
@@ -20,8 +23,8 @@ class Services extends Component {
             <h1>Our Services</h1>
 
             <Media>
-              <Media.Left align="bottom">
-                <img width={350} height={250} src={elsCloudyLand} alt="land use map"/>
+              <Media.Left align="middle">
+                <img width={350} height={250} src={elsVillage} alt="land use map"/>
               </Media.Left>
               <Media.Body>
                 <Media.Heading>Preliminary Survey</Media.Heading>
@@ -44,7 +47,7 @@ class Services extends Component {
             
             <Media>
               <Media.Left align="middle">
-                <img width={350} height={250} src={elsVillage} alt="land use map"/>
+                <img width={320} height={250} src={construction} alt="land use map"/>
               </Media.Left>
               
               <Media.Body>
@@ -89,7 +92,7 @@ class Services extends Component {
                 Survey makers are not usually set with this type of survey.</p>
               </Media.Body>
               <Media.Right align="middle">
-                <img width={350} height={250} src={elsCity} alt="land use map"/>
+                <img width={350} height={250} src={tree} alt="land use map"/>
               </Media.Right>
             </Media>
             
@@ -114,13 +117,13 @@ class Services extends Component {
                 the need for flood insurance or if a site is suitable for a new structure.</p>
               </Media.Body>
               <Media.Right align="middle">
-                <img width={350} height={250} src={landUseMap} alt="land use map"/>
+                <img width={350} height={250} src={elevation} alt="land use map"/>
               </Media.Right>
             </Media>
             
             <Media>
             <Media.Left align="middle">
-                <img width={350} height={250} src={landUseMap} alt="land use map"/>
+                <img width={350} height={250} src={plat} alt="land use map"/>
               </Media.Left>
               <Media.Body>
                 <Media.Heading>Subdivision Survey</Media.Heading>
